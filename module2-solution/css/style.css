@@ -21,7 +21,7 @@ h1{
 }
 
 .relleno{
-	background-color: gray;
+	background-color: #f1c367;
 	margin-bottom: 30px;
 	border: 1px solid black;
 	width: 90%;
@@ -45,7 +45,8 @@ h1{
 }
 
 #Title-Chiken{
-	background-color: #FAC9B8
+	color: white;
+	background-color: #419884;
 }
 
 #Title-Beef{
@@ -54,7 +55,8 @@ h1{
 }
 
 #Title-Sushi{
-	background-color: #ede774;
+	color: white;
+	background-color: #293c51;
 }
 
 
