@@ -1,0 +1,73 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	color: #000;
+}
+
+/****** HEADER ******/
+
+#header-nav{ /* estilo a encabezado */
+	background-color: #6A7FDB;
+	border-radius: 0;
+	border: 0px solid #000;
+
+}
+
+.navbar-brand h1{ /* Titulo de pagina */
+	color: #FFF;
+	margin: 0;
+	font-size: 2em;
+}
+
+.navbar-brand a:hover{ /* Titulo de pagina */
+	text-decoration: none;
+}
+
+.navbar-brand{ /* Tamaño encabezado */
+	height: 60px;
+}
+
+/* menu */
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{ /* color icono de menu desplegable */
+	border: 1px solid #000;
+}
+
+#collapsable-nav a{ /* color letra de menu desplegable */
+	color: #000;
+	font-size: 1.3em;
+}
+
+#collapsable-nav a:hover{ /* color menu desplegable al pasar hover */
+	background-color: #E7E7E7
+}
+
+/*#collapsable-nav{
+	background-color: #45CB85;
+}*/
+
+/****** End Header ******/
+
+
+/****** Main Content ******/
+
+.jumbotron{
+	background-color: #FFF;
+}
+
+#Titulo-menu{ /* titulo de pagina */
+	margin: 0 auto 30px;
+}
+
+#Chiken-item{ /* color de item chiken */
+	background-color: #57E2E5;
+}
+
+
+@media (max-width: 767px){
+	#collapsable-nav{
+		background-color: #45CB85;
+	}
+}
